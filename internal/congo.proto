@@ -1,0 +1,10 @@
+package internal;
+
+message User {
+	required uint64 ID = 1;
+	required string FirstName = 2;
+	required string LastName = 3;
+	required string Email = 4;
+}
+
+
